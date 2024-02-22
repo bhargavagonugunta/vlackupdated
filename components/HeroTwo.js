@@ -77,9 +77,7 @@ const HeroTwo = () => {
           <Row className="align-items-center">
             <Col xl={6} lg={6} md={6} sm={10}>
               <div className="hero__content-2">
-                <h4 className="section__sub-title">
-                  Let’s Create Great Things
-                </h4>
+                <h4 className="section__sub-title">Lets Create Great Things</h4>
                 <h2 className="hero__title hero__title-2">
                   <span>We build creative</span>
                   websites & apps

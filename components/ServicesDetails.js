@@ -138,7 +138,7 @@ const ServicesDetails = () => {
                 and user-friendly mobile applications. From sleek consumer apps
                 to robust enterprise solutions, our experienced team utilizes
                 cutting-edge technologies to bring your vision to life. Elevate
-                your brand's accessibility and user engagement with Vlack
+                your brand&apos;s accessibility and user engagement with Vlack
                 Solutions as your trusted app development partner.
               </p>
             </div>

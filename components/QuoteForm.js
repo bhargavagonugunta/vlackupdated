@@ -25,7 +25,7 @@ const QuoteForm = () => {
             <ul>
               <li>Memorable designs that leave a lasting impression.</li>
               <li>
-                A seamless experience for increased interaction and retention..
+                A seamless experience for increased interaction and retention.
               </li>
               <li>
                 Fostering recognition through designs aligned with your brand
