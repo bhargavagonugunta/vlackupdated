@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 const ContactForm = () => {
+  const [state, setState] = useState(false);
   return (
     <section
       id="contact"
@@ -51,7 +52,7 @@ const ContactForm = () => {
                 <h4>Send us a message</h4>
               </div>
               <div className="contact__form-content">
-                <form action="#" id="contact-form" method="POST">
+                <div id="contact-form">
                   <div className="field-format d-sm-flex justify-content-between mb-40">
                     <div className="form-group pr-10 form-group-2">
                       <input
@@ -86,10 +87,21 @@ const ContactForm = () => {
                       placeholder="Your Message"
                     ></textarea>
                   </div>
-                  <button type="submit" className="m-btn">
+                  {state && (
+                    <div>
+                      <p>Submitted successfully we will Contact you Soon</p>
+                    </div>
+                  )}
+
+                  <button
+                    onClick={() => {
+                      setState(true);
+                    }}
+                    className="m-btn"
+                  >
                     Get in Touch
                   </button>
-                </form>
+                </div>
               </div>
             </div>
           </Col>
