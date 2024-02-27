@@ -1,5 +1,6 @@
 import { Col, Container } from "react-bootstrap";
 import React from "react";
+import { Scroles } from "./Functions/Scrole";
 
 const QuoteForm = () => {
   return (
@@ -16,7 +17,12 @@ const QuoteForm = () => {
             focussed areas with the advantage of pay as you go
           </h6>
           <div className={``}>
-            <button type="submit" className="m-btn">
+            <button
+              onClick={() => {
+                Scroles("formit");
+              }}
+              className="m-btn"
+            >
               1000 $
             </button>
           </div>

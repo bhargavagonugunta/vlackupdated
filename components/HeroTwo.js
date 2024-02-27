@@ -82,10 +82,7 @@ const HeroTwo = () => {
                   <span>We build creative</span>
                   websites & apps
                 </h2>
-                <p>
-                  The carbon in our apple pies extraordinary claims require
-                  extra evidence permanence of the stars energy.
-                </p>
+                <p></p>
                 <Link href="/contact">
                   <a className="m-btn mt-35">Get Started</a>
                 </Link>
